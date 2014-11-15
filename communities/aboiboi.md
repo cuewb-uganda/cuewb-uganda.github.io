@@ -35,25 +35,30 @@ Aboiboi is located at 1°53'46.21"N, 33°46'20.33"E. It is approximately 30km aw
 &nbsp;
 
 <a class="anchor" id="Agriculture"></a>
+
 ### Agriculture 
 The main crops are cassava, groundnuts, sesame (sim sim), and millet. The MFP is primarily used for hulling maize and rice.
 
 &nbsp;
 
 <a class="anchor" id="Background"></a>
+
 ### Background 
 Before the MFP was brought to Aboiboi, the community members would travel to Soroti (32 km, or 6 hours walking) to process their maize and rice, and to Katakwi (45 km, or 9 hours walking) to process cassava. In anticipation of the intallment of the MFP, Aboiboi began growing much more rice, which can be hulled and sold in the market.
 
 &nbsp;
 
 <a class="anchor" id="Impact"></a>
+
 ### Impact
 Since it became operational, Aboiboi's MFP has generated 100,000 shillings in profit (~$ USD). They also plan to begin a program to loan money to group members, with interest.
 
 &nbsp;
 
 <a class="anchor" id="travel-trips"></a>
+
 ### Travel Trips
 
 <a class="summer-2013"></a>
+
 > #### Summer 2013
