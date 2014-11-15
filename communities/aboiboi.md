@@ -1,6 +1,5 @@
 ---
 layout: post
-markdown: redcarpet
 name: aboiboi
 navigation:
 - url: Location
