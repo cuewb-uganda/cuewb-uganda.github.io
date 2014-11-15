@@ -1,0 +1,24 @@
+- name: aboiboi
+  sections:
+    - label: one
+      sub: false
+    - label: two
+      sub: false
+    - label: three
+      sub: true
+      subsections:
+        - sub one
+        - sub two
+
+- name: anyara
+  sections:
+    - label: un
+      sub: false
+    - label: deux
+      sub: true
+      subsections:
+        - rouge
+        - bleu
+        - blanc
+    - label: autre
+      sub: false

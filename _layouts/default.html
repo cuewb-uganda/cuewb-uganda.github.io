@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+        
+        <!-- Twitter Bootstrap CSS -->
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+        <!-- Bootstrap JS -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+
+        <!-- Holder JS -->
+        <script src="/js/holder.js"></script>
+
+        <!-- Custom CSS/JS -->
+        <link rel="stylesheet" href="/css/main.css">
+        <script src="/js/main.js"></script>
+
+    </head>
+    <body>
+
+    <!-- image modals! -->
+
+    <div class="modal fade auto-wrap" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-auto">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img src="holder.js/600x400/auto/gray" class="img-responsive" id="modal-image"> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <div class="container-fluid">
+          <!-- header -->
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+                <!-- toggle menu for mobile -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">U-Wiki</a>
+                </div>
+
+                <!-- actual links -->
+                {% include nav.html %}
+            </nav>
+
+          <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+
+              {{ content }}
+
+            </div>
+            <div class="col-sm-2"></div>
+          </div>
+
+          <!--<footer -->
+              
+        </div> <!-- /container-fluid -->
+
+    </body>
+</html>

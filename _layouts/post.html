@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<div class="row">
+  <div class="col-sm-10">
+    {{ content }}
+  </div>
+  <div class="col-sm-2">
+    <!-- sub nav -->
+    <ul class="page-nav affix">
+    {% for link in page.navigation %}
+        <li>
+            <a href="#{{ link.url }}">
+                {% if link.text %}
+                    {{ link.text }}
+                {% else %}
+                    {{ link.url }}
+                {% endif %}
+            </a>
+            {% if link.sub %}
+                <ul>
+                {% for sub in link.sub %}
+                    <li>
+                        <a href="#{{ sub.url }}">
+                          {% if sub.text %}
+                            {{ sub.text }}
+                          {% else %}
+                            {{ sub.url }}
+                          {% endif %}
+                        </a>
+                    </li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+        </li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>

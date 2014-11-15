@@ -1,0 +1,29 @@
+{
+    "villages": [
+        {
+            "name": "aboiboi",
+            "sections": [
+                "one",
+                "two",
+                [
+                    "subone",
+                    "subtwo"
+                ],
+                "three"
+            ]
+        },
+        {
+            "name": "anyara",
+            "sections": [
+                "un",
+                "deux",
+                "trois",
+                [
+                    "rouge",
+                    "bleu",
+                    "blanc"
+                ]
+            ]
+        }
+    ]
+}
