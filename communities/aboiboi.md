@@ -1,6 +1,5 @@
 ---
 layout: post
-markdown: redcarpet
 name: aboiboi
 navigation:
 - url: Location
@@ -23,7 +22,9 @@ Aboiboi's MFP was implemented in May 2013. It is the __th village to be implemen
 &nbsp;
 
 <a class="anchor" id="Location"></a>
+
 ### Location
+
 <div class="row"><div class="col-sm-4">
     <img src="/images/l-aboiboi.png" class="img-responsive img-thumbnail" id="thumb" data-toggle="modal" data-target="#imageModal"><br>
     <center><i>Aboiboi</i></center>
